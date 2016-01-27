@@ -5,8 +5,8 @@ set ruler		" show the cursor position all the time
 set incsearch		" do incremental searching
 set rnu			" relative line numbers
 
-" Never ever let Vim write a backup file! They did that in the 70�s.
-" Use modern ways for tracking your changes (like git), for God�s sake
+" Never ever let Vim write a backup file! They did that in the 70's.
+" Use modern ways for tracking your changes (like git), for God's sake
 set nobackup
 set noswapfile
 set history=50		" keep 50 lines of command line history
