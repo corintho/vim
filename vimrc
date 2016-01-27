@@ -21,6 +21,9 @@ endif
 
 set guifont=Hack:h8
 
+set laststatus=2
+set statusline=%f
+
 " Import other settings
 runtime colors.vim
 runtime typing.vim
