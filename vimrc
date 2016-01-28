@@ -33,3 +33,4 @@ runtime syntastic.vim
 
 runtime colors.vim
 
+noremap <Leader>t :noautocmd vimgrep /TODO\\|FIXME\\|XXX/j **/*<CR>:cw<CR>
