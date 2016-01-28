@@ -20,9 +20,11 @@ if has('langmap') && exists('+langnoremap')
 endif
 
 set guifont=Hack:h8
+"  for this to work properly, you need the patched Hack font, with symbols
+"  for powerline, available at: https://github.com/powerline/fonts/tree/master/Hack
+let g:airline_powerline_fonts = 1
 
 set laststatus=2
-set statusline=%f
 
 " Import other settings
 runtime typing.vim
@@ -30,3 +32,4 @@ runtime plug.vim
 runtime syntastic.vim
 
 runtime colors.vim
+
