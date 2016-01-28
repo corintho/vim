@@ -1,13 +1,13 @@
 call plug#begin()
-Plug 'ternjs/tern_for_vim'
+Plug 'KabbAmine/vCoolor.vim'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'mhinz/vim-signify'
-Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/syntastic'
+Plug 'skammer/vim-css-color'
+Plug 'ternjs/tern_for_vim'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
-Plug 'KabbAmine/vCoolor.vim'
-Plug 'skammer/vim-css-color'
 Plug 'vim-scripts/TaskList.vim'
 runtime plug_themes.vim
 call plug#end()
