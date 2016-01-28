@@ -4,6 +4,24 @@ set backspace=indent,eol,start
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
 
+" Use both Unix and DOS file formats, but favor the Unix one for new files.
+set fileformats=unix,dos
+
+" Stick with the UTF-8 encoding.
+if has('multi_byte')
+  " Encoding used for the terminal.
+  if empty(&termencoding)
+    let &termencoding = &encoding
+  endif
+
+  " Encoding used in buffers, registers, strings in expressions, "viminfo"
+  " file, etc.
+  set encoding=utf-8
+
+  " Encoding used for writing files.
+  setglobal fileencoding=utf-8
+endif
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
 
