@@ -6,6 +6,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+runtime plug_themes.vim
 call plug#end()
 
 " ES6 template fixes

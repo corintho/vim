@@ -25,7 +25,8 @@ set laststatus=2
 set statusline=%f
 
 " Import other settings
-runtime colors.vim
 runtime typing.vim
 runtime plug.vim
 runtime syntastic.vim
+
+runtime colors.vim
