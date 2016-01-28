@@ -6,6 +6,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
+Plug 'KabbAmine/vCoolor.vim'
+Plug 'skammer/vim-css-color'
 runtime plug_themes.vim
 call plug#end()
 
