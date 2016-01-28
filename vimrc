@@ -33,6 +33,6 @@ runtime syntastic.vim
 
 runtime colors.vim
 
-noremap <Leader>t :noautocmd vimgrep /TODO\\|FIXME\\|XXX/j **/*<CR>:cw<CR>
+noremap <Leader>T :noautocmd vimgrep /TODO\\|FIXME\\|XXX/j **/*<CR>:cw<CR>
 
 autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors

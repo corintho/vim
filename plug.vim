@@ -8,6 +8,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'skammer/vim-css-color'
+Plug 'vim-scripts/TaskList.vim'
 runtime plug_themes.vim
 call plug#end()
 
