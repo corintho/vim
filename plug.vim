@@ -4,6 +4,8 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'mhinz/vim-signify'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " ES6 template fixes
