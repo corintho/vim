@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'KabbAmine/vCoolor.vim'
+Plug 'Raimondi/delimitMate'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jeetsukumaran/vim-buffergator'
