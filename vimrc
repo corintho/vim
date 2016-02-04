@@ -32,24 +32,5 @@ runtime plug.vim
 runtime syntastic.vim
 
 runtime colors.vim
+runtime shortcuts.vim
 
-noremap <Leader>T :noautocmd vimgrep /TODO\\|FIXME\\|XXX/j **/*<CR>:cw<CR>
-
-autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors
-
-" Sets executable for eslint
-autocmd BufEnter *.js,*.es,*.es6,*.jsx call <SID>SetLocalEslint()
-
-function! s:SetLocalEslint()
-	let tmpCmd = StrTrim(system('npm bin')) . '/eslint'
-	if (has('win16') || has('win32'))
-		let tmpCmd = tmpCmd . '.cmd'
-	endif
-	if executable(tmpCmd)
-		let g:syntastic_javascript_eslint_exec = tmpCmd
-	endif
-endfunction
-
-function! StrTrim(txt)
-  return substitute(a:txt, '^\n*\s*\(.\{-}\)\n*\s*$', '\1', '')
-endfunction

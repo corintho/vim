@@ -17,3 +17,6 @@ hi link javaScriptTemplateDelim String
 hi link javaScriptTemplateVar Text
 hi link javaScriptTemplateString String
 
+" Set attribute to sass and scss files to get proper highlight from css
+" highlighter
+autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors
