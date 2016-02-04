@@ -1,6 +1,8 @@
 call plug#begin()
 Plug 'KabbAmine/vCoolor.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'mhinz/vim-signify'
 Plug 'scrooloose/syntastic'
