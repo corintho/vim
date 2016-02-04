@@ -10,6 +10,7 @@ Plug 'scrooloose/syntastic'
 Plug 'skammer/vim-css-color'
 Plug 'ternjs/tern_for_vim'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/TaskList.vim'
 runtime plug_themes.vim
