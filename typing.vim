@@ -6,6 +6,8 @@ inoremap <C-U> <C-G>u<C-U>
 
 " Use both Unix and DOS file formats, but favor the Unix one for new files.
 set fileformats=unix,dos
+" Sane defaults for tabs
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " Stick with the UTF-8 encoding.
 if has('multi_byte')

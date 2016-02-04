@@ -12,6 +12,8 @@ set noswapfile
 set history=50		" keep 50 lines of command line history
 set showcmd		" display incomplete commands
 
+let mapleader = ","
+
 if has('langmap') && exists('+langnoremap')
   " Prevent that the langmap option applies to characters that result from a
   " mapping.  If unset (default), this may break plugins (but it's backward
@@ -20,6 +22,7 @@ if has('langmap') && exists('+langnoremap')
 endif
 
 set guifont=Hack:h8
+
 "  for this to work properly, you need the patched Hack font, with symbols
 "  for powerline, available at: https://github.com/powerline/fonts/tree/master/Hack
 let g:airline_powerline_fonts = 1
