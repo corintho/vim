@@ -12,6 +12,10 @@ set noswapfile
 set history=50		" keep 50 lines of command line history
 set showcmd		" display incomplete commands
 
+" Set completion mode to be more helpful
+set wildmode=longest,list,full
+set wildmenu
+
 let mapleader = ","
 
 if has('langmap') && exists('+langnoremap')
