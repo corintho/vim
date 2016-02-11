@@ -3,7 +3,7 @@
 set nocompatible
 set ruler		" show the cursor position all the time
 set incsearch		" do incremental searching
-set rnu			" relative line numbers
+set nu rnu		" relative and absolute line numbers
 
 " Never ever let Vim write a backup file! They did that in the 70's.
 " Use modern ways for tracking your changes (like git), for God's sake
