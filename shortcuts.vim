@@ -13,3 +13,12 @@ nnoremap <c-u> viwgU
 " Editing shortcuts
 " Makes current word uppercase
 inoremap <c-u> <esc>viwgUa
+" Quickly leave insert mode
+inoremap jk <esc>
+
+" Kills some default mappings
+inoremap <esc> <nop>
+noremap! <Up> <nop>
+noremap! <Down> <nop>
+noremap! <Left> <nop>
+noremap! <Right> <nop>
