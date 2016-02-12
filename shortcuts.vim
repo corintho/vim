@@ -5,7 +5,7 @@ noremap <Leader>e :Explore<CR>
 noremap <Leader>T :noautocmd vimgrep /TODO\\|FIXME\\|XXX/j **/*<CR>:cw<CR>
 
 " Normal shortcuts
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :edit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " Makes current word uppercase
 nnoremap <c-u> viwgU
