@@ -12,7 +12,10 @@ let g:syntastic_javascript_checkers = ["eslint"]
 
 " Sets executable for eslint to be relative to active current directory
 " Disabled for now, since this makes editing JS a lot slower
-autocmd BufEnter *.js,*.es,*.es6,*.jsx call <SID>SetLocalEslint()
+augroup syntastic_custom
+    autocmd!
+    autocmd BufEnter *.js,*.es,*.es6,*.jsx call <SID>SetLocalEslint()
+augroup END
 
 function! s:SetLocalEslint()
     let tmpCmd = finddir('node_modules', '.;') . '/.bin/eslint'

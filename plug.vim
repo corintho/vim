@@ -24,4 +24,7 @@ hi link javaScriptTemplateString String
 
 " Set attribute to sass and scss files to get proper highlight from css
 " highlighter
-autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors
+augroup css_custom
+    autocmd!
+    autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors
+augroup END
