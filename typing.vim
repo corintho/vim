@@ -55,3 +55,6 @@ else
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
+
+" Adds a new movement operator
+onoremap p i(
