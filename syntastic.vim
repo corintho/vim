@@ -22,7 +22,7 @@ function! s:SetLocalEslint()
     if executable(tmpCmd)
         echo 'eslint: ' . tmpCmd
         let g:syntastic_javascript_eslint_exec = tmpCmd
-    else
+    elseif exists("g:syntastic_javascript_eslint_exec")
         unlet g:syntastic_javascript_eslint_exec
     endif
 endfunction
