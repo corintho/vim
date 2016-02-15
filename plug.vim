@@ -29,3 +29,6 @@ augroup css_custom
     autocmd!
     autocmd BufEnter *.s{a,c}ss syntax cluster sassCssAttributes add=@cssColors
 augroup END
+
+" Enable more aggressive refresh for signify
+let g:signify_update_on_focus_gaines = 1
