@@ -18,7 +18,11 @@ inoremap jk <esc>
 
 " Kills some default mappings
 inoremap <esc> <nop>
-noremap! <Up> <nop>
-noremap! <Down> <nop>
-noremap! <Left> <nop>
-noremap! <Right> <nop>
+nnoremap <Up> <nop>
+vnoremap <Up> <nop>
+nnoremap <Down> <nop>
+vnoremap <Down> <nop>
+nnoremap <Left> <nop>
+vnoremap <Left> <nop>
+nnoremap <Right> <nop>
+vnoremap <Right> <nop>
