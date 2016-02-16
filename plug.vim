@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/TaskList.vim'
+Plug 'mhinz/vim-startify'
 runtime plug_themes.vim
 call plug#end()
 
