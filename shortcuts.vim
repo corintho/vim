@@ -16,6 +16,12 @@ inoremap <c-u> <esc>viwgUa
 " Quickly leave insert mode
 inoremap jk <esc>
 
+"Window shortcuts
+nnoremap <c-h> <c-w>h
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-l> <c-w>l
+
 " Kills some default mappings
 inoremap <esc> <nop>
 nnoremap <Up> <nop>
