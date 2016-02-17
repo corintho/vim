@@ -19,7 +19,7 @@ nmap <leader>bq :bp <BAR> bd #<CR>
 " CtrlP Settings
 " Setup some default ignores
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+  \ 'dir':  '\v[\/](bower_components|node_modules|target|dist)|(\.(git|hg|svn)|\_site)$',
   \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
 \}
 
