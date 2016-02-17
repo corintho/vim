@@ -7,6 +7,9 @@ In order to properly have tern inspecting and completing javascript code, we nee
 ## Font
 In order for airline to display some neat graphics, we need to use a custom font with those graphics enabled. We are currently using the **Hack** font, and as such, we have to download a modified font from: https://github.com/powerline/fonts/tree/master/Hack
 
+## Lua
+[Neocomplete](https://github.com/Shougo/neosnippet.vim) uses Lua for its functionality, be sure to have lua enabled on vim and have the lua library available for vim to use.
+
 After that, it should be installed properly according to your own operating system requirements.
 
 # Instructions
