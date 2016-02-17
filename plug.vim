@@ -3,6 +3,8 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
@@ -38,3 +40,13 @@ let g:signify_update_on_focus_gaines = 1
 
 " Enable neocomplete by default
 let g:neocomplete#enable_at_startup = 1
+
+" Configuration for snippets completion
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+ " For conceal markers.
+ if has('conceal')
+   set conceallevel=2 concealcursor=niv
+endif
