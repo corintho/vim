@@ -10,6 +10,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jeetsukumaran/vim-buffergator'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'kshenoy/vim-signature'
 Plug 'mattn/emmet-vim'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
@@ -47,6 +48,6 @@ smap <C-k>     <Plug>(neosnippet_expand_or_jump)
 xmap <C-k>     <Plug>(neosnippet_expand_target)
 
  " For conceal markers.
- if has('conceal')
-   set conceallevel=2 concealcursor=niv
+if has('conceal')
+    set conceallevel=2 concealcursor=niv
 endif
