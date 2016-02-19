@@ -1,3 +1,5 @@
+" Cleaning up formatting of line endings
+nnoremap <Leader>le :e ++ff=dos<CR>:setl ff=unix<CR>
 " Netrw shortcuts to help navigating
 noremap <Leader>e :Explore<CR>
 
