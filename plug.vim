@@ -1,6 +1,5 @@
 call plug#begin()
 Plug 'Chiel92/vim-autoformat'
-Plug 'KabbAmine/vCoolor.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/neosnippet'
