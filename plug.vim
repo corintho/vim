@@ -20,6 +20,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-scripts/TaskList.vim'
+Plug 'wikitopian/hardmode'
 runtime plug_themes.vim
 call plug#end()
 
@@ -27,6 +28,9 @@ call plug#end()
 hi link javaScriptTemplateDelim String
 hi link javaScriptTemplateVar Text
 hi link javaScriptTemplateString String
+
+" Enable hardmode by default, which means it disables lots of navigation
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 
 " Set attribute to sass and scss files to get proper highlight from css
 " highlighter
