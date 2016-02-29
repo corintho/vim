@@ -24,13 +24,3 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
-" Kills some default mappings
-inoremap <esc> <nop>
-nnoremap <Up> <nop>
-vnoremap <Up> <nop>
-nnoremap <Down> <nop>
-vnoremap <Down> <nop>
-nnoremap <Left> <nop>
-vnoremap <Left> <nop>
-nnoremap <Right> <nop>
-vnoremap <Right> <nop>
