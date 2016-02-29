@@ -11,6 +11,8 @@ nnoremap <leader>ev :edit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " Makes current word uppercase
 nnoremap <leader>u viwgU
+" Replaces all occurrenced of word under cursor
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 " Editing shortcuts
 " Makes current word uppercase
