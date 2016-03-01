@@ -13,6 +13,9 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " Makes current word uppercase
 nnoremap <leader>u viwgU
 
+" Append ; ao the end of line and return to proper position
+nnoremap <leader>; myA;<esc>`y :delm y<cr>
+
 " Replaces all occurrenced of word under cursor
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
