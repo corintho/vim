@@ -13,6 +13,7 @@ Plug 'kshenoy/vim-signature'
 Plug 'mattn/emmet-vim'
 Plug 'mhinz/vim-signify'
 Plug 'mhinz/vim-startify'
+Plug 'rking/ag.vim'
 Plug 'scrooloose/syntastic'
 Plug 'skammer/vim-css-color'
 Plug 'ternjs/tern_for_vim'
@@ -54,3 +55,7 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
 if has('conceal')
     set conceallevel=2 concealcursor=niv
 endif
+
+" Ag searcher options
+" By default use project root to search
+let g:ag_working_path_mode="r"
