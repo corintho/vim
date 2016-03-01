@@ -27,4 +27,4 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 
 " Kills some default mappings 
-inoremap <esc> <nop> 
+inoremap <esc> <nop>
