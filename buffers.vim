@@ -55,6 +55,3 @@ nmap <leader>kk :BuffergatorMruCycleNext<cr>
 " View the entire list of buffers open
 nmap <leader>bl :BuffergatorOpen<cr>
 
-" Shared bindings from Solution #1 from earlier
-nmap <leader>T :enew<cr>
-nmap <leader>bq :bp <BAR> bd #<cr>
