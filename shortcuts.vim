@@ -20,9 +20,9 @@ nnoremap <leader>; myA;<esc>`y :delm y<cr>
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
 " Ag shortcuts to make searching a litle bit easier
-nnoremap <Leader>ff :Ag! <C-r>=expand('%:t')<cr><cr>
-nnoremap <Leader>* :Ag! <C-r><C-w><cr>
-vnoremap <Leader>* y:Ag! <C-r>"<cr>
+nnoremap <Leader>ff :LAg! <C-r>=expand('%:t')<cr><cr>
+nnoremap <Leader>* :LAg! <C-r><C-w><cr>
+vnoremap <Leader>* y:LAg! <C-r>"<cr>
 
 " Editing shortcuts
 " Makes current word uppercase
