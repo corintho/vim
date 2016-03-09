@@ -9,6 +9,7 @@ noremap <Leader>T :noautocmd Ag "TODO\|FIXME\|XXX"<cr>
 " Normal shortcuts
 nnoremap <leader>ev :edit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>w :w<cr>
 
 " Makes current word uppercase
 nnoremap <leader>u viwgU
